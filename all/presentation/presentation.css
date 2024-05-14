@@ -1,0 +1,81 @@
+body {
+    background-image: url(../image/bgimg.webp);
+    background-size: cover;
+    /*resizes the background image to cover the entire body*/
+    background-position: center;
+    color: linear-gradient(rgb(17, 255, 0), rgb(0, 255, 247), rgb(188, 148, 179), rgb(236, 215, 96));
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7.5em;
+    margin-top: 10%;
+}
+
+.names {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.names span {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #3c3c3c;
+    background-color: #f27de5;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.names span:nth-child(1) {
+    background-color: #f44242;
+}
+
+.names span:nth-child(2) {
+    background-color: #f4a541;
+}
+
+.names span:nth-child(3) {
+    background-color: #3cf441;
+}
+
+.names span:nth-child(4) {
+    background-color: #da46cb;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    margin-top: 10%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px black;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body img {
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 100px auto 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+}

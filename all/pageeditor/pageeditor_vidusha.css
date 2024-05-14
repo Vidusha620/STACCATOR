@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400,500,600&display=swap");
+
+body{
+    font-family: "Hind", sans-serif;
+    margin: 0;
+    background:linear-gradient(to right,#2b2a2a,rgb(125, 52, 184),#2a0126);
+}
+
+.main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    height:700px;
+    width: 500px;
+    border: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: rgba(4, 4, 4, 0.769);
+    background-color: rgba(62, 61, 60, 0.724);
+}
+
+.image{
+
+   height: 60%;
+   width: 100%;
+   overflow: hidden; 
+   background-color:black;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-position:center;
+   background-size: cover;
+   background-image: url("../image/editor/student2.jpg");
+}
+
+img{
+    width:100%
+}
+.content{
+    white-space: nowrap;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(233, 185, 66);
+    
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px 10px;
+    color: white
+}

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>MODERN DAY MUSIC | GALLERY</title>
+	<link rel="icon" type="image/x-icon" href="../image/icon(1).png">
+	<link rel="stylesheet" type="text/css" href="../gallery/GALLERY.CSS">
+
+</head>
+
+<body>
+	<header>
+		<!-- Web site header-->
+		<h1 id="name">MODERN DAY MUSIC CENTER</h1>
+	</header>
+
+
+	<!-- Navigation bar-->
+
+
+
+	<a id="top"></a>
+
+
+	<div class="fix">
+		<img id="logo" src="../image/icon(1).png"><br>
+		<nav>
+
+			<a href="../home/home.html" class="link">HOME</a>
+			<a href="../sitemap/Sitemap(1).html" class="link">SITEMAP</a>
+			<a href="../presentation/presentation(1).html" class="link">ABOUT</a>
+			<a href="../gallery/GALLERY.html" class="link">GALLERY</a>
+			<a href="../shop/product.html" class="link">SHOP</a>
+			<a href="../quiz/quiz.html" class="link">QUIZ</a>
+			<a href="../queryform/queryform.html" class="link">QUERY FORM</a>
+			<a href="../aboutus/aboutus.html" class="link">OUR TEAM</a>
+
+
+
+		</nav>
+	</div><br><br>
+
+
+	<h1 class="Title7">
+		<center><b>GALLERY</b></center>
+	</h1>
+	<br><br><br>
+
+
+	<!--left pull down menu for select background colour-->
+	<div class="dropdown" style="float:left;">
+		<button class="dropbtn">Background colour</button>
+		<div class="dropdown-content" style="left:0;">
+			<option class="selectColor" onclick="changeColor ('white')" value="white"> White</option>
+			<option class="selectColor" onclick="changeColor ('black')" value="black"> Black</option>
+			<option class="selectColor" onclick="changeColor ('green')" value="Green"> Green</option>
+			<option class="selectColor" onclick="changeColor ('red')" value="red"> Maroon</option>
+			<option class="selectColor" onclick="changeColor ('blue')" value="blue"> Pink</option>
+		</div>
+	</div>
+
+
+	<!--right pull down menu for selec text colour-->
+	<div class="dropdown" style="float:right;">
+		<button class="dropbtn">Text colour</button>
+		<div class="dropdown-content">
+			<option class="selectText" onclick="changeTxt (this)" value="black">Black</option>
+			<option class="selectText" onclick="changeTxt (this)" value="white">white</option>
+			<option class="selectText" onclick="changeTxt (this)" value="#4ef578">Green</option>
+			<option class="selectText" onclick="changeTxt (this)" value="#babfd9">Gray</option>
+			<option class="selectText" onclick="changeTxt (this)" value="#CC0033">pink</option>
+		</div>
+	</div>
+	<br><br><br><br>
+
+
+	<!--pictures for gallery-->
+	<div class="row">
+		<div class="column">
+			<img id="img1" src="../image/edrum(2).webp" alt="Electronic drum" height="250" width="200"
+				onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img2" src="../image/eguitar(3).png" alt="Electric Guitar" height="250" width="200"
+				onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img3" src="../image/sax(4).png" alt="Saxophone" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img4" src="../image/picc(5).jpg" alt="Piccolo" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img id="img5" src="../image/piano.JPG" alt="piano" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img6" src="../image/xyl.jpg" alt="Xylophone" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img7" src="../image/baj.jpeg" alt="Banjo" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+
+
+		<div class="column">
+			<img id="img8" src="../image/oct.webp" alt="Octapad" height="250" width="200" onmouseover="bigImg(this)"
+				onmouseout="normalImg(this)" style="border-radius:20px;">
+		</div>
+	</div>
+
+
+	<!--big pic and the descrption-->
+	<div class="bigpic" id="bigpic1">
+		<div class="paragraph">
+			<img class="picture" src="../image/piano.JPG" alt="piano" width="350" height="300"
+				style="border-radius:20px;">
+			<div class="title">
+				<h2 class="content">piano</h2>
+				<p>There are two main types of piano: the grand piano and the upright piano. The grand piano offers
+					better sound and more precise key control, making it the preferred choice when space and budget
+					allow. The grand piano is also considered a necessity in venues hosting skilled pianists. However,
+					the upright piano, despite being worse in terms of tone and key action, is more commonly used due to
+					its smaller size and lower cost.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--big pic and the descrption-->
+	<div class="bigpic" id="bigpic2">
+		<div class="paragraph">
+			<img class="picture" src="../image/xyl.jpg" alt="Xylophone" width="350" height="300"
+				style="border-radius:20px;">
+			<div class="title">
+				<h2 class="content">Xylophone</h2>
+				<p>The xylophone is a musical instrument in the percussion family that consists of wooden bars struck by
+					mallets. Like the glockenspiel (which uses metal bars), the xylophone essentially consists of a set
+					of tuned wooden keys arranged in the fashion of the keyboard of a piano. Each bar is an idiophone
+					tuned to a pitch of a musical scale, whether pentatonic or heptatonic in the case of many African
+					and Asian instruments, diatonic in many Western children's instruments, or chromatic for orchestral
+					use.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--big pic and the descrption-->
+	<div class="bigpic" id="bigpic3">
+		<div class="paragraph">
+			<img class="picture" src="../image/baj.jpeg" alt="Banjo" width="350" height="300"
+				style="border-radius:20px;">
+			<div class="title">
+				<h2 class="content">Banjo</h2>
+				<p>The banjo is a stringed instrument with a thin membrane stretched over a frame or cavity to form a
+					resonator. The membrane is typically circular, in modern forms usually made of plastic, originally
+					of animal skin. Early instrument forms were fashioned by African Americans and had African
+					antecedents. In the 19th century, interest in the instrument was spread across the United States and
+					the United Kingdom by travelling shows of the 19th-century minstrel show fad, followed by mass
+					production and mail-order sales, including instruction method books. The inexpensive or homemade
+					banjo remained part of rural folk culture, but 5-string and 4-string banjos also became famous for
+					home parlour music entertainment, college music clubs, and early 20th-century jazz bands..</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--big pic and the descrption-->
+	<div class="bigpic" id="bigpic4">
+		<div class="paragraph">
+			<img class="picture" src="../image/oct.webp" alt="Octapad" width="350" height="300"
+				style="border-radius:20px;">
+			<div class="title">
+				<h2 class="content">Octapad</h2>
+				<p>an Octapad Instrument is an electronic percussion instrument which has eight rubber pads on a
+					rectangular surface. These rubber pads produced sounds when they struck on. Electronic percussion is
+					a revolution to percussion instruments..</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="social">
+
+		<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="../image/socialm icon/fb.png"
+				alt="facebook" height="35" width="35"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.instagram.com/" target="_blank" id="insta"><img src="../image/socialm icon/ins.jpg"
+				alt="instagram" height="40" width="40"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.whatsapp.com/" target="_blank" id="whatsapp"><img src="../image/socialm icon/wht.png"
+				alt="whatsapp" height="35" width="35"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://mail.google.com/"><img src="../image/socialm icon/mail.jpeg" alt="email" id="em" height="40"
+				width="55"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://twitter.com/" target="_blank" id="twitter">
+			<img src="../image/socialm icon/twit.jpeg" alt="Twitter" height="50" width="85"></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+	</div>
+	<div class="arrow">
+		<br><br>
+
+		<a href="#top"><img src="../image/socialm icon/uparrow.png" alt="back to top" class="center" id="arrow"></a>
+
+
+		<hr style="color:white">
+
+	</div>
+	<script>
+		let isSelected = false;
+		window.onload = function () {
+			alert("Click an image to see Information");
+		}
+
+		function changeColor(getColor) {
+			
+			document.body.style.backgroundColor = selectColor;
+		}
+
+		function changeTxt(getColor) {
+			let selectText = getColor.value;
+			document.body.style.color = selectText;
+		}
+
+		function bigImg(x) {
+			x.style.height = "320px";
+			x.style.width = "270px";
+		}
+
+		function normalImg(x) {
+			x.style.height = "270px";
+			x.style.width = "220px";
+		}
+
+
+		document.getElementById("pic1").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic1").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic1").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic2").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic2").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic2").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic3").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic3").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic3").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic4").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic4").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic4").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic5").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic5").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic5").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic6").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic6").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic6").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic7").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic7").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic7").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+
+		document.getElementById("pic8").addEventListener("click", function () {
+			if (!isSelected) {
+				document.getElementById("bigpic8").style.display = "block";
+				isSelected = true;
+			} else {
+				document.getElementById("bigpic8").style.display = "none";
+				isSelected = false;
+			}
+		});
+
+	</script>
+
+</body>
+
+</html>

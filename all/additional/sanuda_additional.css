@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body{
+     background: #35230e; 
+     background: -webkit-linear-gradient(to right, #fe8c00, #f83600);
+     background: linear-gradient(to right,#4b494a,rgb(133, 74, 182),#30022c);   
+	 height:auto;	
+     background-repeat:no-repeat;
+     width:100%;
+}
+#header1
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 40px 100px;
+    z-index: 10000;
+    color: rgb(242, 236, 236);
+    margin-top: 100px;
+    
+}
+
+#name{
+    margin-left: 380px;
+    font-family: playball;
+    color:rgb(246, 240, 240);
+    font-size:4vw;
+    position: absolute;
+}
+/* CSS for main navigation */
+
+nav {
+    background-color: #2b2c39c7;
+    align-items: center;
+    padding: 14px 16px;
+    overflow: hidden;
+    margin-top: 0px;	
+}
+nav a {
+    padding: 40px;
+    text-align: center;
+   
+    color: rgb(252, 252, 252);
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.fix{
+		align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.link:hover{
+      cursor:pointer;
+       background:black;
+       color:white;
+       padding: 40px;
+}
+
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+#logo {
+  display:block;
+  margin-left:80px;
+  margin-right: auto;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  
+}
+.nav-auto div {
+	border: 2px solid #FFFFFF;
+	padding:10px;
+	border-radius:10px;
+	transition:1s;
+	margin-right:30px;
+	
+}
+/*bottom nav*/
+.column{
+	padding-left:1px;
+	padding-right:1px;
+	float:left;
+	text-align:center;
+	display:inline;
+	color:white;
+  margin-left:10px ;
+  margin-right: 10px;
+  width:30%;
+}
+ 
+
+
+.bottom{
+	position:relative;
+	bottom:0;
+	width:80%;
+	text-align:center;
+	padding:30px;
+	color:aqua;
+    margin-left: 100px;
+	
+	
+}
+.social{
+	text-align:center;
+	color: white;
+    background: black;
+
+	
+}
+.arrow{
+    background: black;
+}
+
+ #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
+  animation: Zoom 1s ease infinite;
+}
+
+
+hr{height:3px;
+	color:white;
+	background-color:black;
+	border-width:0;
+}
+
+#last{text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#arrow{
+  filter: grayscalebrightness();
+  height: 50px;
+  width: 50px;
+
+}
+
+.bottomnav{
+  background-color: black;
+  margin: 0;
+}
+
+/* footer styles */
+footer
+{
+    background-color:auto;
+    color:white;
+    transition: 0.5s;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+*{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+@font-face {
+    font-family: Oswald;
+    src: url("/fonts/Oswald-Bold.ttf") format("opentype");
+
+}
+
+.header{
+    background-color: rgba(32, 32, 32, 0.718);
+    border-radius: 20px;
+    color: #ece5db;
+    text-align: center;
+    margin-left: 350px;
+	padding-top: 10px;
+	margin-top: 50px;
+    
+}
+.blogDetails{
+    background-color:#63546fd0 ;
+    border-radius: 20px;
+    height: 70px;
+    margin-left: 350px;
+    
+}
+
+.blogText{
+    color: #efc88e;
+    font-family: 'Oswald ExtraLight', Oswald, serif;
+    font-size: 16;
+}
+.card{
+    margin-top: 10px;
+    z-index: 0;
+    position: relative;
+    margin-left:250px;
+    width: 1100px;
+    font-size:20px;
+}
+.card strong{
+    font-family: 'Oswald ExtraLight', Oswald, serif;
+    font-size: 25px;
+    padding: 5px;
+    color:#dedec7;
+
+}
+.card p{
+    font-family: "Oswald SemiBold",Oswald;
+    padding-inline:1px;
+    padding: 5px;
+  
+}
+
+.Blogbackground{
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+.blogContent{
+    z-index: 5;
+    position:relative;
+    opacity: 1;
+    background-color: rgba(38, 8, 63, 0.438);
+    margin-top: 30px;
+   
+}
+
+.img{
+    float: right;
+    padding: 15px;
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.blog1{
+    margin-top:80px;
+    width: 1206px;
+
+}
+
+
+.blogsAuthor
+{
+    font-family:'Oswald ExtraLight', Oswald, serif; 
+    text-decoration: none;
+    color:#121212;
+}
+
+.blogsAuthor:hover
+{
+    font-size: larger;
+    color: black;
+}
+
+a {
+  font-size: 18px; 
+  color: white; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: red; 
+}

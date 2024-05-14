@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MODERN DAY MUSIC | QUIZ</title>
+  <link rel="icon" type="image/x-icon" href="../image/icon(1).png">
+  <link rel="stylesheet" type="text/css" href="../quiz/quiz.css">
+  <link rel="stylesheet" type="text/css" href="../externalcss/externalcss.css">
+</head>
+<body>
+
+<header>
+<!-- Web site header-->
+<h1 id="name">MODERN DAY MUSIC CENTER</h1>
+</header>
+
+<div class="fix">
+<img id = "logo" src="../image/icon(1).png" ><br>
+<nav>
+  <a href="../home/home.html" class="link">HOME</a>
+  <a href="../sitemap/Sitemap(1).html" class="link">SITEMAP</a>
+  <a href="../presentation/presentation(1).html" class="link">ABOUT</a>
+  <a href="../gallery/GALLERY.html" class="link">GALLERY</a>
+  <a href="../shop/product.html" class="link">SHOP</a>
+  <a href="../quiz/quiz.html" class="link">QUIZ</a>
+  <a href="../queryform/queryform.html" class="link">QUERY FORM</a>
+  <a href="../aboutus/aboutus.html" class="link">OUR TEAM</a>
+</nav>
+
+  <h1>Quiz</h1>
+
+  <!-- Webpage1 -->
+  <div id="webpage1" class="quiz-container">
+    <b>Welcome to the Quiz. Click the button below to continue.
+	<br><br>
+    <button class="button button1" onclick="redirectToQuiz()">Continue</button></b>
+  </div>
+  
+  <!-- Webpage2 -->
+  <div id="webpage2" style="display: none;" class="container">
+    <b>Read the instructions given below carefully.<br>
+    <br>
+    <p id="ptext">1. You will only have <span id="ptext span">60 seconds</span> to complete this quiz.</p>
+    <p>2. Once you select your answer, it cannot be undone.</p>
+    <p>3. You cannot select any option once the timer goes off.</p>
+    <p>4. You cannot exit from the quiz once you have started.</p>
+    <p>5. You'll receive points based on your correct answers.</p>
+    <br>
+    <br>
+    <button class="button button1" onclick="exitQuiz()">Exit Quiz</button>
+    <button class="button" onclick="startQuiz()">Start Quiz</button>
+    </b>
+  </div>
+
+  
+
+
+  <!-- Webpage3 -->
+  <div id="webpage3" style="display: none">
+    <div class="quiz-container">
+      <div id="questionIndex" class="question-index"></div>
+      <div id="timer"></div>
+      <div id="question"></div>
+      <div id="options"></div>
+      <div id="result"></div>
+      <button id="restart-btn" class="button2" disabled>Restart</button>
+    </div>
+  </div>
+
+  <p id="para">w1999730 20220594 - Gaveesha Welhena</p> <!-- Belongs to all three webpages -->
+  <script src="quiz.js"></script>
+  <br><br><br><br>
+  <audio controls id="music" src="../audio/music.mp3"></audio>
+  <p class="p">Listen to this music while playing the quiz to relax! &#128522;</p>
+  <footer class="footer">
+    <div class="footercontainer">
+        <div class="row">
+            <div class="footercolumn">
+                <h4>company</h4>
+                    <ul>
+                      <a href="../aboutus/aboutus.html" class="link">Our Team</a>
+                    </ul>
+                    <h4>feedback</h4>
+                    <ul>
+                    <a href="../queryform/queryform.html" class="link">Query Form</a>
+                    </ul>
+                    <h4>activity</h4>
+                    <ul>
+                      <a href="../quiz/quiz.html">Quiz</a><br>
+                      <a href="../gallery/GALLERY.html">Gallery</a>
+                    </ul>
+                    <h4>follow us</h4>
+                  </div>
+        </div>
+      </div>
+  <div class="social">
+    <a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="../image/socialm icon/fb.png" alt="facebook" height="35" width="35"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/" target="_blank" id="insta"><img src="../image/socialm icon/ins.jpg" alt="instagram" height="40" width="40"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.whatsapp.com/"target="_blank" id="whatsapp"><img src="../image/socialm icon/wht.png" alt="whatsapp" height="35" width="35"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://mail.google.com/"><img src="../image/socialm icon/mail.jpeg" alt="email"  id="em" height="40" width="55"> </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/" target="_blank" id="twitter">
+    <img src="../image/socialm icon/twit.jpeg" alt="Twitter"  height="50" width="85"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div class="arrow">
+<br><br>
+  <a href="#top" ><img src="../image/socialm icon/uparrow.png" alt="back to top" class="center" id="arrow"></a>
+  <hr style="color:white">
+</div>
+  </footer>
+  
+</body>
+</html>
+
+
+
+
+
+<!-- References -->
+<!-- https://linuxhint.com/show-or-hide-an-element-on-website-using-javascript/ -->
+<!--www.w3schools.com-->
+
